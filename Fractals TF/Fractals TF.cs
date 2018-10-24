@@ -7,7 +7,7 @@ using cAlgo.Indicators;
 namespace cAlgo
 {
     [Indicator(IsOverlay = true, TimeZone = TimeZones.UTC, AccessRights = AccessRights.None)]
-    public class FractalsTF : Indicator
+    public class FractalsTF : Indicator, Robot
     {
 
         [Parameter()]
