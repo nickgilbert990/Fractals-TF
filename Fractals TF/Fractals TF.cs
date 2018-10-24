@@ -9,6 +9,7 @@ namespace cAlgo
     [Indicator(IsOverlay = true, TimeZone = TimeZones.UTC, AccessRights = AccessRights.None)]
     public class FractalsTF : Indicator
     {
+        //Add test comment
 
         [Parameter()]
         public TimeFrame FractalTimeFrame { get; set; }
